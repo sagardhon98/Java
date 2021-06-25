@@ -1,0 +1,52 @@
+********** Some Important Git Commands ***********
+##Clone Repositoty##
+git clone <Git URL>
+
+##Initiliaze Local directory as a git repository##
+git init
+
+##Add All files to staging##
+git add .
+
+##Commit All files with commit message##
+git commit -m "<Commit message>"
+
+##Check Status##
+git status
+
+##Git Configuration##
+git config --global user.name "<Username>"
+git config --global user.email "<UserEmail>"
+
+##Show All Branches##
+git branch
+
+##Create Branch##
+git branch <feature>
+git checkout <feature>
+
+##Merge Feature Branch to Master##
+git chekout <master>
+git merge <feature>
+
+##Delete branch from local repository##
+git branch -d <branchname>
+
+##Delete Branch from remote repository##
+git push origin --delete <branchname>
+
+##Pull Changes from remote##
+git pull origin <branchname>
+
+##Git Stash##
+git stash
+git stash display
+git stash apply
+
+##Check Git Log##
+git log
+git log --author="<name of author>"
+
+##Revert Commit##
+git log
+git revert <commit Id>
