@@ -49,4 +49,4 @@ git log --author="<name of author>"
 
 ##Revert Commit##
 git log
-git revert <commit Id>
+git revert <commit Id >
