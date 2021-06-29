@@ -1,5 +1,5 @@
 What is a Framework?
-           combination of pre-defined+ readymade code.
+           combination of pre-defined + readymade code.
 		OR
 	   It is a pre-processor and already written boiler plate code.
 		     
@@ -29,7 +29,7 @@ Types Of Application.
        AWS Cloud.
 	   
 3)Distributed Application.
-      API Abstract Proggming Interface  .API Expose.
+      API Abstract Programing Interface  .API Expose.
 	  Restfull or soapFull
 	  
 	  Sring Rest.
