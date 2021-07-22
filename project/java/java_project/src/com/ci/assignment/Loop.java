@@ -10,7 +10,7 @@ public class Loop {
 	int num = sc.nextInt();
 	int i = 1;
 	while(i <= 10) {
-		System.out.printf("%d * %d = %d \n", num, i, num * i);
+		System.out.println(num * i);
 		i++;
 	}
 	}

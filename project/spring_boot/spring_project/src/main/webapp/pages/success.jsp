@@ -7,8 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<h1 style="color: red; text-align: center;">welcome ${title}</h1>
-
+<h3>Your data saved successfully.</h3>
 </body>
 </html>

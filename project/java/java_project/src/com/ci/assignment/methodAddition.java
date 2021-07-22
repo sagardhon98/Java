@@ -1,10 +1,10 @@
 package com.ci.assignment;
 
-public class AddSubDivMul {
+public class methodAddition {
 
 	public static void main(String[] args) {
-		int ans = getData(3 , 7);
-		System.out.println(ans);
+		int a = getData(3 , 7);
+		System.out.println("The Addition of two number is : " + a);
 	}
 	
 	public static int getData(int a , int b) {

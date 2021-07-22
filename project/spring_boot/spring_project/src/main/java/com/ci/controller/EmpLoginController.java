@@ -5,30 +5,30 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.ci.controller.form.Student;
+import com.ci.controller.form.EmpLogin;
 
 @Controller
-public class StudentController {
-	
-	@GetMapping("show")
-	public ModelAndView getData() {
+public class EmpLoginController {
+
+	@GetMapping("/empshow")
+	public ModelAndView fetchData() {
 		ModelAndView mav = new ModelAndView();
-		Student s1 = new Student();
+		EmpLogin el = new EmpLogin();
 		//data
-		mav.addObject("s1", s1);
+		mav.addObject("el", el);
 		//view
-		mav.setViewName("login");
+		mav.setViewName("emplogin");
 		return mav;
 	}
 	
-	@PostMapping("save")
-	public ModelAndView saveData(Student s1) {
+	@PostMapping("/empsave")
+	public ModelAndView showData(EmpLogin el) {
 		ModelAndView mav = new ModelAndView();
 		//data
-		mav.addObject("s1", s1);
+		mav.addObject("el", el);
 		//view
 		mav.setViewName("success");
-		System.out.println(s1);
+		System.out.println(el);
 		return mav;
 	}
 }
