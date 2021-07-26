@@ -7,6 +7,7 @@ public class Student {
 	private String email;
 	private float fee;
 	private String location;
+	
 	/**
 	 * @return the id
 	 */
