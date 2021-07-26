@@ -1,0 +1,25 @@
+Custom Query ( Dao Developement )
+ 
+
+Using JPA we can perform opertion 3 way.
+1)Predefined Methods.
+2)findBy
+3)CustomQuery.
+
+
+
+SQL (Structured Query Language) :
+	select id,email,mobile,salary,desgination from employee e
+
+Hibernate : 
+	select emp.id,emp.email,emp.mobile,emp.salary  from Employee emp;
+
+HQl/JPQl :
+	from Employee;
+
+
+SQL
+select id,email,mobile,salary,desgination from employee e
+
+@Query("select id,email,mobile,salary,desgination from employee e")
+public List<Employee> getlAllRecords();
