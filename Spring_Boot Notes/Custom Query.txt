@@ -14,7 +14,7 @@ SQL (Structured Query Language) :
 Hibernate : 
 	select emp.id,emp.email,emp.mobile,emp.salary  from Employee emp;
 
-HQl/JPQl :
+HQL/JPQL ( Hibernate Query Language / Java Persistence Query Language ) :
 	from Employee;
 
 

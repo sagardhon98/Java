@@ -7,13 +7,15 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.ci.controller.form.Student;
 
+import ch.qos.logback.core.joran.event.SaxEvent;
+
 @Controller
 public class StudentController {
 	
 	@GetMapping("show")
 	public ModelAndView getData() {
 		ModelAndView mav = new ModelAndView();
-		Student s1 = new Student();
+		Student s1 = new Stutent();
 		//data
 		mav.addObject("s1", s1);
 		//view
