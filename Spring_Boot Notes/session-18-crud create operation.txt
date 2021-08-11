@@ -1,0 +1,47 @@
+-------------------------------
+Session-18-create-employee-data
+-------------------------------
+
+step-01-create project with below dependancy.
+---------------------------------------------
+	  (project creating time this dependancy are add)
+          starter-web
+  	  starter-jpa
+  	  dev-tools
+   	  mysql
+  	  lombok
+
+	  (this dependancy are add in pom.xml file)
+	  servlet-jstl.
+  	  tomcat-embeded apache.
+
+Stpes-02- create packages.
+--------------------------
+	  (add package)
+	  com.ci
+	  com.ci.dao
+	  com.ci.entity.
+	  com.ci.service.
+	  com.ci.controller
+
+Step-03-Create all clases and intefaces.
+----------------------------------------
+          Employee(class)
+	  EmpyoeeRep(Interface)
+	  EmployeeService(class)
+	  EmployeeController(class)
+
+Step-04-Create Jsp pages.
+-------------------------
+	  (add jsp pages in webapp folder's)
+          index.jsp
+	  employeeRegistration.jsp.
+       	  success.jsp
+	  error.jsp
+
+Step-05-View Configuration Application.properties.
+--------------------------------------------------
+	  (in application.properties we add database connectivity)
+	  suffix
+	  prefix.
+	  database connectivity
