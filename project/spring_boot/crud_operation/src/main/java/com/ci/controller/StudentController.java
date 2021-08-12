@@ -1,5 +1,7 @@
 package com.ci.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -32,6 +34,17 @@ public class StudentController {
 		studentService.insertStudentData(s1);
 		System.out.println(s1);
 		return "/success";
+	}
+	
+	@GetMapping("/showAll")
+	public ModelAndView showAllStudent() {
+		ModelAndView mav = new ModelAndView();
+		List<Student> getAllStudent = studentService.getAllStudent();
+		//data
+		mav.addObject("getAllStudent", getAllStudent);
+		//view
+		mav.setViewName("/showAllStudent");
+		return mav;
 	}
 
 	@Autowired

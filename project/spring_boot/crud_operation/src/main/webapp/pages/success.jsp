@@ -7,8 +7,9 @@
 <title>Data Saved</title>
 </head>
 <body>
-	<div style="text-align: center; color: green;">
-		<h1>Data save Successfully.</h1>
+	<div style="text-align: center">
+		<h1 style="color: green;">Data save Successfully.</h1>
+		<a href="/showAll">click here to show all student Information</a>
 	</div>
 </body>
 </html>
