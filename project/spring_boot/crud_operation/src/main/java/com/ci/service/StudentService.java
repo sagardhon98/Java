@@ -25,4 +25,9 @@ public class StudentService {
 		List<Student> allStudent = studentRepo.findAll();
 		return allStudent;
 	}
+
+	//delete data
+	public void deleteStudentById(Long id) {
+		studentRepo.deleteById(id);
+	}
 }

@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Student Detail's</title>
 </head>
 <body>
 	<h3>All Student Information</h3>
@@ -28,7 +28,7 @@
 						<td>${stud.name}</td>
 						<td>${stud.email}</td>
 						<td>${stud.location}</td>
-						<td>Edit | Delete </td>
+						<td>Edit | <a href="/delete/${stud.id}">Delete</a></td>
 					</tr>
 				</j:forEach>
 			</tbody>
